@@ -1,0 +1,44 @@
+Reacting routering version 6
+===========================
+1. Limitation react has without react router
+   - Mulitple page app  vs single page app (SPA)
+
+   - Solution:
+       - React router
+           - React Router is a  library for routing in react application.
+           - t allows you to define routers , which map to different components in your application.
+    - npmjs.com
+        - Serach for "react-router-dom" and install
+    - Official website:
+       -https://reactrouter.com/en/main
+
+    - Install react-router-dom
+    
+
+2. Implement main parts of react router
+    - BrowserRouter
+      - <BrowserRouter> component is used to wrap your application and provide the routing functionality.
+        - this router add in our application
+    -Routers 
+      - <Routes> component wraps everything that are dependant on route.
+
+    - Route
+      - <Route> components define the relationship between a path and a component to be renderd when the path is matched.
+      - Route objects have a path property, which specifies the path to match and a element property which specifies the component to render.
+       1. path
+       2. element
+
+    - Link
+       - <Link> component is used to create links between different routes in your application.
+       if we use a (anchor use href) but when ever use "Link" we use  "to" instead of href
+
+
+3. 404 page and Nessted routes
+    - Non existing routes
+
+    - Shared layouts (NavBar and Footer)
+    - outlet
+        - Outlet component renders child routes within their parent route.
+
+  -- To connect Mysql database or to check database connection run this command
+        * nodemon app.jsx

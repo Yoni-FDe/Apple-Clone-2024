@@ -1,0 +1,28 @@
+/* Product page */
+.title-wrapper {
+  font-size: 32px;
+  font-weight: 700;
+}
+.brief-description {
+  font-size: 24px;
+  font-weight: 600;
+}
+.product-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+/* .product-brief {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2em;
+} */
+.starting-price {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* .product-holder {
+  margin: 100px 0;
+} */
+.product-details {
+  padding: 10px 0;
+}
